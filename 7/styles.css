@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game {
+    margin: 50px 10% 0 10%;
+}
+
+.circles {
+    width: 500px;
+    height: 500px;
+    border: solid grey 3px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.circle {
+    position: absolute;
+    top: -20px;
+    left: 230px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid red 1px;
+    transform-origin: 19px 268px;
+    background-color: rgb(241, 225, 133);
+}
+
+.counter {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.btnstart {
+    border: 2px solid #2358ec9f;
+    background-color: #6183e29f;
+    padding: 5px 10px;
+    max-width: 100px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btnstart:hover {
+    background-color: #5d85f5;
+}
+
+.active {
+    background-color: lightgray;
+}
+
+.circle:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+.circle:nth-child(2) {
+    transform: rotate(-90deg);
+}
+
+.circle:nth-child(3) {
+    transform: rotate(-135deg);
+}
+
+.circle:nth-child(4) {
+    transform: rotate(-180deg);
+}
+
+.circle:nth-child(5) {
+    transform: rotate(-225deg);
+}
+
+.circle:nth-child(6) {
+    transform: rotate(-270deg);
+}
+
+.circle:nth-child(7) {
+    transform: rotate(-315deg);
+}
